@@ -1,6 +1,8 @@
 heatmap
 =======
 
+This is a fork of https://github.com/substack/node-heatmap.
+
 Heatmaps for node.js and the browser, groovy!
 
 ![groovy heatmap, man](http://substack.net/images/heatmap.png)
@@ -18,10 +20,10 @@ var heat = heatmap(500, 500, { radius : 30 });
 for (var i = 0; i < 5000; i++) {
     var rho = Math.random() * 2 * Math.PI;
     var z = Math.pow(Math.random(), 2) * 200;
-    
+
     var x = 250 + Math.cos(rho) * z;
     var y = 250 + Math.sin(rho) * z;
-    
+
     heat.addPoint(x, y);
 }
 heat.draw();
@@ -79,4 +81,4 @@ install
 
 With [npm](http://npmjs.org), just do:
 
-    npm install heatmap
+    npm install heatmap2

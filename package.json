@@ -1,6 +1,6 @@
 {
-    "name" : "heatmap",
-    "version" : "0.0.5",
+    "name" : "heatmap2",
+    "version" : "0.0.1",
     "description" : "canvas heat maps for node and the browser",
     "main" : "index.js",
     "directories" : {
@@ -9,8 +9,8 @@
         "test" : "test"
     },
     "dependencies" : {
-        "color-convert" : "0.2.x",
-        "canvas" : "1.0.x"
+        "color-convert" : "0.5.x",
+        "canvas" : "1.3.12"
     },
     "devDependencies" : {
         "expresso" : "0.7.x",
@@ -23,7 +23,7 @@
     },
     "repository" : {
         "type" : "git",
-        "url" : "http://github.com/substack/node-heatmap.git"
+        "url" : "http://github.com/gouthamve/node-heatmap.git"
     },
     "keywords" : [
         "heatmap",
@@ -31,9 +31,9 @@
         "browser"
     ],
     "author" : {
-        "name" : "James Halliday",
-        "email" : "mail@substack.net",
-        "url" : "http://substack.net"
+        "name" : "Goutham Veeramachaneni",
+        "email" : "cs14btech11014@iith.ac.in",
+        "url" : "https://geekon.tech"
     },
     "license" : "MIT/X11",
     "engine" : { "node" : ">=0.4" }
